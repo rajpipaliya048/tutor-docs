@@ -1,6 +1,6 @@
 # course prerequisites openedx for subsections
 
-- enable this flag in lms.yml and cms.yml
+- enable this flag in lms.yml and studio.yml
 ```
 # Milestones application flag
 'MILESTONES_APP': True,
@@ -13,4 +13,9 @@
 ```
 Enable subsection prerequisites = true
 ```
-- Then go to course content and configure subsections with prerequiste in subsetions advance settings
+
+### For Entrance exam enable this feature in lms.yml and studio.yml
+```
+# Entrance exams feature flag
+'ENTRANCE_EXAMS': True,
+```
