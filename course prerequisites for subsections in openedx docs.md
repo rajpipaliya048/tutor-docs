@@ -13,3 +13,4 @@
 ```
 Enable subsection prerequisites = true
 ```
+- Then go to course content and configure subsections with prerequiste in subsetions advance settings
